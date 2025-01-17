@@ -1,8 +1,9 @@
-print("Welcome to the food ordering Chatbot")
+print("Welcome to Aaden's Elite 101 Chatbot!")
 name = input("What is your name? ")
 age = input("Hello " + name + ", how old are you?")
 print("Awesome!, how may i help you?")
 
+#From youtube - Andy Dolinski
 def menu():
     print("[1] Option 1")
     print("[2] Option 2")
