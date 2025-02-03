@@ -1,14 +1,17 @@
-print("Welcome to Aaden's Elite 101 Chatbot!")
+print("Welcome to Aaden's Bank Account Helper Chatbot!")
 name = input("What is your name? ")
 age = input("Hello " + name + ", how old are you?")
-print("Awesome!, how may i help you?")
+print("Awesome!, What kind of account would you like to open?")
 
 #From youtube - Andy Dolinski
 def menu():
-    print("[1] Option 1")
-    print("[2] Option 2")
+    print("[1] Checkings Account")
+    print("[2] Savings Account")
+    print("[3] Retirement Account")
+    print("[4] Health Savings Account")
+    print("[3] More Help")
     print("[0] Exit program")
-
+    
 
 menu()
 option = int(input("Enter your option:"))
